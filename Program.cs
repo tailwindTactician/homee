@@ -1,0 +1,10 @@
+﻿        BankAccount acc1 = new BankAccount("Али", "111", 15000, "Savings");
+        BankAccount acc2 = new BankAccount("Мунира", "222", 5000, "Current");
+        BankAccount acc3 = new BankAccount("Олим", "333", 30000, "Business");
+         acc1.Deposit(2000);
+          acc2.Deposit(6000);
+           acc3.Deposit(10000);
+           Console.WriteLine("\n=== Выписки по счетам ===");
+        acc1.PrintStatement();
+        acc2.PrintStatement();
+        acc3.PrintStatement();
